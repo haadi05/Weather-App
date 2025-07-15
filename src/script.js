@@ -33,7 +33,7 @@ async function renderUi(result) {
   main_title.textContent = "";
 
   UiContainer.innerHTML = `<div class="ui-container flex flex-col justify-center items-center mt-8 mb-8 "> 
-    <img class="icon h-40 pb-3 text-white" src="../src/Icons/${result.weather[0].icon}.svg"></img>
+    <img class="icon h-40 pb-3 text-white" src="./src/Icons/${result.weather[0].icon}.svg"></img>
     <p class="description pb-3 text-white text-2xl font-medium">${result.weather[0].description}</p>
     <p class="temp p-3 text-white text-7xl font-bold">${temp}°c</p>
     <p class="city-name p-3 text-white text-5xl font-medium">${result.name}</p>

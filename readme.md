@@ -13,7 +13,6 @@ The app fetches real-time weather data and displays city-specific conditions wit
 
 ## 🛠️ Tech Stack
 
-- Vite
 - Tailwind CSS
 - JavaScript
 - OpenWeatherMap API
