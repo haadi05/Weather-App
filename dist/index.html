@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="src/Icons/02d.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="../src/script.js" defer></script>
+  </head>
+
+  <body
+    style="font-family: 'inter'"
+    class="flex flex-col justify-center items-center min-h-[86vh] p-0 m-0 bg-zinc-700"
+  >
+    <p class="title pb-4 text-gray-100 text-3xl font-bold">
+      What’s the Weather Like?
+    </p>
+    <!-- Container -->
+    <div
+      class="mainContainer w-90 rounded-2xl bg-[linear-gradient(to_bottom,_#65c7fc_50%,_#1fb0ff)]"
+    >
+      <div class="flex justify-center items-center space-x-2 mt-8 mb-8">
+        <!-- Search bar -->
+        <input
+          type="text"
+          placeholder="Enter City"
+          class="User-Input px-4 py-3 rounded-4xl bg-white outline-none"
+        />
+        <!-- Search btn -->
+        <button
+          class="search-btn p-3 border-2 rounded-4xl border-white bg-white cursor-pointer"
+        >
+          <img src="../src/Icons/search.svg" />
+        </button>
+      </div>
+      <div class="divContainer">
+        <!-- Ui -->
+      </div>
+    </div>
+    <footer class="fixed bottom-0 mb-2 text-white opacity-80 text-xs">
+      API by
+      <a href="https://openweathermap.org/" class="underline">OpenWeather</a> ·
+      Built by
+
+      <a href="https://github.com/haadi2005" class="underline">Haadi2005</a>
+    </footer>
+  </body>
+</html>
