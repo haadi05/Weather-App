@@ -1,15 +1,15 @@
 # 🌤️ Weather App
 
-A clean, responsive weather app UI built with Vite, Tailwind CSS, and vanilla JavaScript.  
+A clean, responsive weather app UI built Tailwind CSS, and vanilla JavaScript.  
 The app fetches real-time weather data and displays city-specific conditions with user feedback for error cases.
 
 ## ✅ Features
 
-- Responsive UI with Tailwind CSS
-- Real-time weather data from OpenWeatherMap API
-- Displays current temperature, city name, and weather status
+- Responsive UI
+- Real-time weather data
+- Displays about temperature, city name, and hourly forecast
 - Dynamic weather icons based on condition
-- Error handling for empty input and invalid city names
+- Error handling
 
 ## 🛠️ Tech Stack
 
