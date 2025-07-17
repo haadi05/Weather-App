@@ -3,6 +3,8 @@
 A clean, responsive weather app UI built Tailwind CSS, and vanilla JavaScript.  
 The app fetches real-time weather data and displays city-specific conditions with user feedback for error cases.
 
+<img src="src/Icons/readme-img.png" />
+
 ## ✅ Features
 
 - Responsive UI
