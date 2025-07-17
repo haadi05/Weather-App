@@ -67,12 +67,12 @@ async function renderforecast(result) {
         hour: "numeric",
         minute: "2-digit",
         hour12: "true",
-      }
+      },
     );
 
     forecast_container.innerHTML += `<div class="forecastContainer flex flex-row justify-evenly items-center">
         <div
-          class="forecastUi flex flex-col justify-center items-center mb-8 [&>*]:pb-1"
+          class="forecastUi flex flex-col justify-center items-center mb-7 [&>*]:pb-1"
         >
           <p class="text-xs mb-1 text-white">${time}</p>
           <img class="h-9" src="src/Icons/${icon}.svg" />
